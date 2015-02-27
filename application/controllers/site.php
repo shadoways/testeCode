@@ -11,8 +11,8 @@ class Site extends CI_Controller {
 	public function home(){
 		
 		$data['title'] = "home";
-		$data['var1'] = 4;
-		$data['var2'] = 6;
+		$data['var1'] = 40;
+		$data['var2'] = 63;
 		
 		$this->load->model("math");
 		
