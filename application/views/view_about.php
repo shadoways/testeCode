@@ -12,8 +12,6 @@
 	
 		<h1>Welcome to About!</h1>
 		
-		<hr>
-		
 		<a href='home'> Home</a>
 		<a href='about'> About</a>
 	
