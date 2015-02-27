@@ -31,4 +31,14 @@ class Site extends CI_Controller {
 		$this->load->view("view_about", $data);
 		
 	}
+	
+	public function getValues(){
+		
+		$this->load->model("get_db");	
+		$data['results'] = $this->get_db->getAll();
+
+		$this->load->view("view_db", $data);
+		
+	}
+	
 }
